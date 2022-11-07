@@ -17,7 +17,7 @@ jobs:
       - name: Connectivity Risk Analysis
         uses: algosec/connectivity-risk-analysis-action@v1.0.0
         env:
-          STOP_WHEN_FAIL: true
+          STOP_WHEN_FAIL: false
           FULL_ANALYSIS: false
           USE_CHECKOUT: true
           ######
