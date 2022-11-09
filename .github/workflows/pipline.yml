@@ -18,7 +18,7 @@ jobs:
         uses: algosec/connectivity-risk-analysis-action@v1.0.0
         env:
           STOP_WHEN_FAIL: true
-          FULL_ANALYSIS: false
+
           USE_CHECKOUT: true
           ######
           CF_TENANT_ID: ${{ secrets.CF_TENANT_ID }}
