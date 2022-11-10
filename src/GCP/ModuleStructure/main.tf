@@ -8,5 +8,5 @@ resource "google_compute_firewall" "fw-rule" {
     ports    = "${var.ports}"
   }
   target_tags   = ["${var.network}-${var.name}"]
-  source_ranges = ["${var.source_ranges}"]
+  source_ranges = "${var.source_ranges}"
 }
