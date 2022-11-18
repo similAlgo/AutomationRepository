@@ -20,7 +20,7 @@ resource "aws_security_group_rule" "ingressrule1" {
   security_group_id = aws_security_group.Scenario2.id
 }
 
-resource "aws_security_group_rule" "ingressrule1" {
+resource "aws_security_group_rule" "ingressrule2" {
   type              = "ingress"
   from_port         = 389
   to_port           = 389
