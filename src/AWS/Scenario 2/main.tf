@@ -7,6 +7,7 @@ resource "aws_security_group" "Scenario2" {
   description = "Ingress"
   vpc_id      = "vpc-481b202f"
 
+  
   ingress {
     from_port   = 389
     to_port     = 389
