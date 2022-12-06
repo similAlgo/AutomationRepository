@@ -19,6 +19,7 @@ jobs:
         env:
           STOP_WHEN_FAIL: false
           FULL_ANALYSIS: false
+          USE_CHECKOUT: true
           ######
           CF_TENANT_ID: ${{ secrets.CF_TENANT_ID }}
           CF_CLIENT_ID: ${{ secrets.CF_CLIENT_ID }}
