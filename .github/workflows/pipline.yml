@@ -38,3 +38,4 @@ jobs:
           CF_API_URL: ${{ secrets.CF_API_URL }}
           CF_LOGIN_API: ${{ secrets.CF_LOGIN_API }}
           #####
+          GOOGLE_APPLICATION_CREDENTIALS: '${{ secrets.GCP_CREDENTIALS }}'
