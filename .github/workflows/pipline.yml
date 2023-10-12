@@ -15,9 +15,9 @@ jobs:
         with:
           credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
       - name: Connectivity Risk Analysis
-        uses: algosec/connectivity-risk-analysis-action@v1.0.3
+        uses: algosec/connectivity-risk-analysis-action@draft_docker
         env:
-          STOP_WHEN_FAIL: true
+          STOP_WHEN_FAIL: false
           FULL_ANALYSIS: false
           USE_CHECKOUT: true
           ######

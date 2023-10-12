@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "Scenario15" {
-  name        = "Scenario15"
+  name        = "Scenario15 "
   description = "egress"
   vpc_id      = "vpc-481b202f"
 
